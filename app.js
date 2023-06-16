@@ -20,7 +20,7 @@ const clearButton  = document.getElementById("clear")
 
 
 
-buttonOne.onclick = function() { currentString.conc(buttonOne.innerHTML)}
+buttonOne.onclick = function() { currentString.append(buttonOne.innerHTML)}
 buttonTwo.onclick = function() { currentString.append(buttonTwo.innerHTML)}
 buttonThree.onclick = function() { currentString.append(buttonThree.innerHTML)}
 buttonFour.onclick = function() { currentString.append(buttonFour.innerHTML)}
